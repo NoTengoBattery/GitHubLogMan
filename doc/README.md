@@ -45,10 +45,10 @@ changelog-scraper -u [url] -q | awk -F'\\x1d' '{printf "#%3d:\t%s\n", $2 + 1, $3
 The `pipe` output is limited to a counter in the first field, that starts from 0, and the commit subject in the second field.
 
 ## AUTHORS
-Oever González ⟨notengobattery@gmail.com⟩
+Oever González ⟨ notengobattery@gmail.com ⟩
 
 ## SEE ALSO
 [`awk(1)`](https://linux.die.net/man/1/awk), [`sed(1)`](https://linux.die.net/man/1/sed), [`perl(1)`](https://linux.die.net/man/1/perl), [`git(1)`](https://linux.die.net/man/1/git), [`ruby(1)`](https://linux.die.net/man/1/ruby)
 
 ## AVAILABILITY
-This program is available at GitHub. Instructions for preparing and running it are available. Visit ⟨https://github.com/NoTengoBattery/changelog-scraper⟩ for more information.
+This program is available at GitHub. Instructions for preparing and running it are available. Visit ⟨ https://github.com/NoTengoBattery/changelog-scraper ⟩ for more information.
